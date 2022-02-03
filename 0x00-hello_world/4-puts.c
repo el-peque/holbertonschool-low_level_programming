@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/*main - does something
- *put - does something else
- *Return - also does something
+/**
+ * main - puts the message
+ *
+ * Return: returns the outcome
  */
-
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
