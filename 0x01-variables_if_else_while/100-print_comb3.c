@@ -8,14 +8,17 @@
  */
 int main(void)
 {
-  int ch;
-
+  int ch, vertch;
   for(ch = '0' ; ch <= '9' ; ch++)
+    {
+      putchar (ch);
+    }
+      for(vertch = ch ; vertch <= '9' ; vertch++)
 	{
+	  if (ch !=)
 	putchar (ch);
-	putchar (',');
-	putchar (' ');
-	}      
+        putchar (vertch);
+        }      
       putchar('\n');
   return (0);
 }
