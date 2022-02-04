@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	printf("Size of a char: %d", CHAR_BYTES "bytes");
+	printf("Size of a char: %zu bytes\n", sizeof(charType));
 
 	return (0);
 }
