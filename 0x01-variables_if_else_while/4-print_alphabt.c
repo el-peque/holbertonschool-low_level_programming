@@ -1,14 +1,16 @@
 #include <stdio.h>
 
 /**
- *main - entry
+ * main - entry
+ * while - as long as it happens
  *
- */
+ * Return: should print 0
+*/
 int main(void)
 {
 	char(ch);
 
-        ch='a';
+	ch = 'a';
 	while (ch <= 'z')
 {
 	if (ch != 'q' && ch != 'e')
@@ -22,6 +24,6 @@ int main(void)
 }
 }
 	putchar ('\n');
-	return(0);
+	return (0);
 
 }
