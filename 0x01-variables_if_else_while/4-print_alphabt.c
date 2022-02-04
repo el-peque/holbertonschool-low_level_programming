@@ -5,7 +5,10 @@
  *
  */
 int main(void)
-	char(ch)
-	ch=a
-	if (ch != q || e)
-	putchar (ch, ++ch)
+{
+	char(ch);
+
+        ch='a';
+	while (ch != 'q' || 'e' && ch <= 'z')
+	putchar (ch, ++ch);
+}
