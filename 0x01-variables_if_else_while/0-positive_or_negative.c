@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - basically the whole program */
+/**
+ * main - entry
+ * if - makes a condition
+ * Return: checks if correct output
+ */
 int main(void)
 {
 	int n;
