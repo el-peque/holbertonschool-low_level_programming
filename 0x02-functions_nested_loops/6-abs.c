@@ -2,7 +2,7 @@
 
 /**
  * _abs - computes the absolute value of an integrer
- * @nem: input character
+ * @n: input character
  *
  * Return: 1 if its lowercase, 0 otherwise
  */

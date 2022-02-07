@@ -6,20 +6,10 @@
  *
  * Return: 1 if its lowercase, 0 otherwise
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-	int;
+	lastDigit = n % 10;
+	_putchar(lastDigit);
 
-	if (int > 0)
-	{
-		return (int);
-	}
-	else if (int < 0)
-	{
-		return (int**(-1));
-	}
-	else
-	{
-		return (0);
-	}
+	return(lastDigit)
 }
