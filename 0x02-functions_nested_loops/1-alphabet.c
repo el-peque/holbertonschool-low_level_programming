@@ -12,6 +12,7 @@ int main(void)
 	{
 		_putchar (alphbt);
 	}
+	alphbt = print_alphabet(void);
 	_putchar (10);
 
 	return(0);
