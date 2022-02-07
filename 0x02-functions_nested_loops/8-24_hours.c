@@ -8,8 +8,8 @@
  */
 void jack_bauer(void)
 {
-	char hours [2] = "00";
-        char minutes [2] = "00";
+	int hours [2] = "00";
+        int minutes [2] = "00";
 
 	while (hours < "24")
 	{
