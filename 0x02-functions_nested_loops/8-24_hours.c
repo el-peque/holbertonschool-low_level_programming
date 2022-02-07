@@ -13,23 +13,26 @@ void jack_bauer(void)
         int minutes = '0';
         int minutestwo = '0';
 
-	while (hours < 2 && hours <4)
+	while (hours < 2 && hourstwo <4)
 	{
-		minutestwo = '0';
-		while (minutestwo != '9')
+		if (hourstwo == 9)
 		{
-			_putchar (hours);
-			_putchar (hourstwo);
-			_putchar (':');
-			_putchar (minutes);
-			_putchar (minutestwo);
+			hours = 0;
+			hourstwo++;
+		}
+		else if(minutestwo < 9)
+		{
 			minutestwo++;
+	        }
+		else
+		{
+			minutestwo = 0;
+			minutes++;
 		}
 		_putchar (hours);
 		_putchar (hourstwo);
 		_putchar (':');
 		_putchar (minutes);
 		_putchar (minutestwo);
-		minutes++;
 	}
 }
