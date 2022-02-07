@@ -6,15 +6,13 @@
  *
  * Return: 1 if its lowercase, 0 otherwise
  */
-int _abs(int)
+int _abs(int n)
 {
-	int;
-
-	if (int > 0)
+	if (n > 0)
 	{
 		return (int);
 	}
-	else if (int < 0)
+	else if (n < 0)
 	{
 		return (int**(-1));
 	}
