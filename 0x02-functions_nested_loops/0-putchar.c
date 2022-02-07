@@ -4,7 +4,7 @@ int main(void)
 {
 	char outpchr[8] = "_putchar";
 
-	for (outpchr = 48 ; outpchr <= 56 ; outpchr++)
+	for (outpchr = 95 ; outpchr <= 114 ; outpchr++)
 	{
 		_putchar(outpchr);
 	}
