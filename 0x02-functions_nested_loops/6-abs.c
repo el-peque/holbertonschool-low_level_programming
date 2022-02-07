@@ -6,7 +6,7 @@
  *
  * Return: 1 if its lowercase, 0 otherwise
  */
-int _abs(int)
+int _abs(int inn)
 {
 	int inn;
 
