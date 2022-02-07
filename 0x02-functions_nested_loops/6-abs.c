@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * print_sign - checks for alphabet character
- * @n: input character
+ * _abs - computes the absolute value of an integrer
+ * @nem: input character
  *
  * Return: 1 if its lowercase, 0 otherwise
  */
-int print_sign(int n)
+int _abs(int)
 {
-	if (n > 0)
+	if (int > 0)
 	{
-		return (n);
+		return (int);
 	}
-	else if (n < 0)
+	else if (int < 0)
 	{
-		return (n*(-1));
+		return (int*(-1));
 	}
 	else
 	{
