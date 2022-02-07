@@ -9,31 +9,21 @@
 void jack_bauer(void)
 {
 	int hours = '0';
-	int hourstwo = '0';
-        int minutes = '0';
-        int minutestwo = '0';
+	int min = '0';
 
-	while (hours < '2' && hourstwo < '4')
+	while (hours < 24)
 	{
-		if (hourstwo == '9')
+		while (min < 60)
 		{
-			hours = '0';
-			hourstwo++;
+			_putchar ('0' + (hours / 10));
+			_putchar ('0' + (hours % 10));
+			_putchar (':');
+			_putchar ('0' + (min / 10));
+			_putchar ('0' + (min / 10));
+			_putchar ('\n');
+			min++;
 		}
-		else if(minutestwo != '9')
-		{
-			minutestwo++;
-	        }
-		else
-		{
-			minutestwo = '0';
-			minutes++;
-		}
-		_putchar (hours);
-		_putchar (hourstwo);
-		_putchar (':');
-		_putchar (minutes);
-		_putchar (minutestwo);
-		_putchar ('\n');
+		min = 0;
+		hours++;
 	}
 }
