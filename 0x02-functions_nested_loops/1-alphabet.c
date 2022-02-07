@@ -4,7 +4,7 @@
  *
  * Return: should be zero
 */
-void print_alphabet(void);
+void print_alphabet();
 int main(void)
 {
 	char alphbt = 'a';
@@ -12,7 +12,7 @@ int main(void)
 	{
 		_putchar (alphbt);
 	}
-	alphbt = print_alphabet(void);
+	alphbt = print_alphabet();
 	_putchar (10);
 
 	return(0);
