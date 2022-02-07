@@ -12,7 +12,7 @@ int main(void)
 	{
 		_putchar (alphbt);
 	}
-	_putchar (LF);
+	_putchar (10);
 
 	return(0);
 }
