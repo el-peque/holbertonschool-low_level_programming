@@ -4,10 +4,10 @@ int main(void)
 {
 	char outpchr[8] = "_putchar";
 
-	for (char outpchr = 0 ; char outpchr <= 8 ; char outpchr++)
+	for (outpchr = 48 ; outpchr <= 56 ; outpchr++)
 	{
-		_putchar(char outpchr);
+		_putchar(outpchr);
 	}
-	_putchar("\n")
+	_putchar(10)
 	return(0)
 }
