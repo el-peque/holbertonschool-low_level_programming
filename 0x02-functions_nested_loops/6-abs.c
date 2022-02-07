@@ -8,7 +8,7 @@
  */
 int _abs(int)
 {
-	int inn
+	int inn;
 
 	if (inn > 0)
 	{
