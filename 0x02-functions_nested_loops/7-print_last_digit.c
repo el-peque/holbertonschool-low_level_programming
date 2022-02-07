@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _print_last_digit - computes the absolute value of an integrer
- * @nem: input character
+ * print_last_digit - prints the last digit
+ * @n: input character
  *
  * Return: 1 if its lowercase, 0 otherwise
  */
