@@ -8,12 +8,13 @@
  */
 void times_table(void)
 {
-	int n = '0';
-	int multp = '9';
+	char line = '0';
+	char row = '0';
+	char rslt = (row * line);
 
-	for(n = 0 ; n <= 9 ; n++)
+	for (row = '0' ; row <= '9' ; row++)
 	{
-		_putchar(n * multp);
+		_putchar(rslt);
 		_putchar(',');
 		_putchar(' ');
 	}
