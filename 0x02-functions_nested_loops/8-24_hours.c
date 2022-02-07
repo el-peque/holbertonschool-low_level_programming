@@ -6,7 +6,7 @@
  *
  * Return: 1 if its lowercase, 0 otherwise
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int hours = "00";
 	int minutes = "00";
