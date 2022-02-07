@@ -1,10 +1,9 @@
-#include "_putchar.c"
+#include "main.h"
 /*
  * main - contains the code
  *
  * Return: should be zero
 */
-void print_alphabet();
 int main(void)
 {
 	char alphbt = 'a';
