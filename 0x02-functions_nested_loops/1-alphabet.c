@@ -11,7 +11,6 @@ int main(void)
 	{
 		_putchar (alphbt);
 	}
-	alphbt = print_alphabet(void);
 	_putchar ('\n');
 
 	return(0);
