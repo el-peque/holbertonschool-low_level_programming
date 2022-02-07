@@ -2,11 +2,11 @@
 
 int main(void)
 {
-	char ptchr[8] = "_putchar";
+	char outpchr[8] = "_putchar";
 
-	for (char ptchr = 0 ; char ptchr <= 8 ; char ptchr++)
+	for (char outpchr = 0 ; char outpchr <= 8 ; char outpchr++)
 	{
-		_putchar(char ptchr);
+		_putchar(char outpchr);
 	}
 	_putchar("\n")
 	return(0)
