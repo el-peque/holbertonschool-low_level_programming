@@ -8,15 +8,15 @@
  */
 int _abs(int)
 {
-	int
+	int inn
 
-	if (int > 0)
+	if (inn > 0)
 	{
-		return (int);
+		return (inn);
 	}
-	else if (int < 0)
+	else if (inn < 0)
 	{
-		return (int*(-1));
+		return (inn*(-1));
 	}
 	else
 	{
