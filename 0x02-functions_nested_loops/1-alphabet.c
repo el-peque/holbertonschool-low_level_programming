@@ -1,5 +1,9 @@
 #include "_putchar.c"
-
+/*
+ * main - contains the code
+ *
+ * Return: should be zero
+*/
 void print_alphabet(void);
 int main(void)
 {
