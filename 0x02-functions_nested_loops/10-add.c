@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * jack_bauer - computes the absolute value of an integrer
- * input character
+ * add - sum of two int
+ * @a: digit
+ * @b: digit
  *
  * Return: 1 if its lowercase, 0 otherwise
  */
