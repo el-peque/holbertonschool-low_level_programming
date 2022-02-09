@@ -10,5 +10,8 @@
 
 int _mul(int a, int b)
 {
-	return (a * b);
+	int a, b, res;
+
+	res = (a * b);
+	return (res);
 }
