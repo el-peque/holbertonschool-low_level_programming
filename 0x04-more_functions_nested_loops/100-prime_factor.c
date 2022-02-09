@@ -8,17 +8,18 @@
 
 int main(void)
 {
-	long int a = 612852475143;
-	long int i = 612852475143;
+	long int a = 12;
+	long int i = 0;
 
-	for (i = 612852475143; i > 0; i--)
+	for (i = (a - 1); i > 0; i--)
 	{
 		if (a % i == 0)
 		{
 			printf("%ld ", i);
+			printf("\\n");
+
+			return (0);
 		}
 	}
-	printf("\\n");
-
-	return (0);
+	return (1);
 }
