@@ -10,7 +10,7 @@ void print_numbers(void)
 {
 	int n = 0;
 
-	for (n = 48; n <= (48 + 9); n++)
+	for (n = 0; n <= 9; n++)
 	{
 		_putchar(n);
 	}
