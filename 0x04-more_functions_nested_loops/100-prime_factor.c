@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	long int a = 612852475143;
-	long int i = 0;
+	unsigned long int a = 612852475143;
+	unsigned long int i = 0;
 
 	for (i = (a - 1); i > 0; i--)
 	{
