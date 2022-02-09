@@ -8,15 +8,14 @@
 
 int main(void)
 {
-	long int a = 12;
+	long int a = 612852475143;
 	long int i = 0;
 
 	for (i = (a - 1); i > 0; i--)
 	{
 		if (a % i == 0)
 		{
-			printf("%ld ", i);
-			printf("\\n");
+			printf("%ld\n", i);
 
 			return (0);
 		}
