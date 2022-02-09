@@ -1,24 +1,21 @@
 #include "main.h"
 
 /**
- * print_numbers - prints numbers, from 0 to 9
+ * print_most_numbers - prints numbers, from 0 to 9, except 2 and 4
  *
- * Return: should be 0
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int n = 0;
 
-	for (n = 48; n <= (48 + 9); n++)
+	for (n = 0; n <= 9; n++)
 	{
-		if (n == (48 + 2) || n == (48 + 4))
+		if (n == 2 || n == 4)
 		{
 			n++;
 		}
 		_putchar(n);
 	}
 	_putchar('\n');
-
-	return (0);
 }
