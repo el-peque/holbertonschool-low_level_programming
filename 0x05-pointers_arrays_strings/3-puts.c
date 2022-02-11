@@ -5,13 +5,15 @@
  * @*str: char *str
  */
 
-int _puts(char *str)
+void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
-	for(
-	_putchar(str[i]
-	long int n[i] = *s;
-
-	return(n);
+	for(i = 0; i < *str; i++)
+	{
+		if (str[i] != '\0')
+		{
+			_putchar(str[i]);
+		}
+	}
 }
