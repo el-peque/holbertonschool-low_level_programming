@@ -2,18 +2,21 @@
 
 /**
  * puts_half - prints half of a string
- * @*str: char *str
+ * @str: char str
  */
 
 void puts_half(char *str)
 {
 	int i = 0;
+	int j = 0;
 
-	for(i = 0; str[i] != '\n'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (i <= (str / 2))
-		{
-			_putchar(str[i]);
-		}
 	}
+
+	for (j = (i / 2); j <= i; j++)
+	{
+		_putchar(*(str + j));
+	}
+	_putchar('\n');
 }
