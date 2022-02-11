@@ -8,19 +8,19 @@
 
 int main(void)
 {
-	unsigned long int a = 1231952;
-	unsigned long int i = 0;
-	unsigned long int j = 0;
+	int a = 1231952;
+	int i = 0;
+	int j = 0;
 
-	for (i = (a - 1); i > 0; i--)
+	for (i = 1; i < a; i++)
 	{
 		if (a % i == 0)
 		{
-			for (j = (i - 1); j > 1; j--)
+			for (j = 2; j <= i; j++)
 			{
-				if ((i % j) != 0)
+				if (i % j != 0)
 				{
-					printf("%lud\n", j);
+					printf("%d\n", a / i);
 					return (0);
 				}
 			}
