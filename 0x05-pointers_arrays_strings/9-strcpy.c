@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
 
 /**
  * _strcpy - copies the string pointed
@@ -7,18 +7,8 @@
  * @src: char src
  */
 
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
-
-	while (i < n)
-	{
-		printf("%d", a[i]);
-		if (i != (n - 1))
-		{
-			printf(", ");
-		}
-		i++;
-	}
-	putchar('\n');
+	strcpy(dest, src);
+	return (dest);
 }
