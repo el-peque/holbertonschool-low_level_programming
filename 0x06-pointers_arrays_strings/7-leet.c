@@ -9,20 +9,22 @@
 
 char *leet(char *a)
 {
+        char b[10] = {'a', 'e', 'o', 't', 'l', 'A', 'E', 'O', 'T', 'L'};
+	char c[10] = {'4', '3', '0', '7', '1', '4', '3', '0', '7', '1'};
+	int m = 0;
 	int n = 0;
-	char b[120];
-	int c = 0;
 
-	b[97] = 98;
-
-	while (a[n] != '\0')
+	while (a[n])
 	{
-		c = a[n];
-		if (a[n] == 97)
+		m = 0;
+		while (m < 10)
 		{
-			a[n] = b[c];
+			if (a[n] == b[m])
+			{
+				a[n] = c[m];
+			}
+			m++;
 		}
-		_putchar(a[n]);
 		n++;
 	}
 	return (a);
