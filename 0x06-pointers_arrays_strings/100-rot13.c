@@ -9,8 +9,8 @@
 
 char *rot13(char *a)
 {
-	char b[] = {"abcdefghijklmnopqrstuvwxyzabcdefghijklmnABCDEFGHIJKLMNOPQRS
-TUVWXYZABCDEFGHIJKLM"};
+	char b[] = {"abcdefghijklmnopqrstuvwxyzabcdefghijklmnABCDEFGHIJKLMNOP"};
+	char b[] = {"QRSTUVWXYZABCDEFGHIJKLM"};
 	int m = 0;
 	int n = 0;
 
