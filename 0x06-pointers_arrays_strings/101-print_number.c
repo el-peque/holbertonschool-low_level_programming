@@ -11,17 +11,25 @@ void print_number(int n)
 {
 	int c = 1;
 
-	if (n < 0)
+	if (n == 0)
 	{
-		n = -n;
-		_putchar('-');
+		_putchar ('0');
 	}
-	while (n / c != 0)
+	else
 	{
-		c *= 10;
-	}
-	for ( ; c >= 1; c /= 10)
-	{
-		_putchar(((n / c)  % 10) + '0');
+		if (n < 0)
+		{
+			n = -n;
+			_putchar('-');
+		}
+		while (n / c != 0)
+		{
+			c *= 10;
+		}
+		c /= 10;
+		for ( ; c >= 1; c /= 10)
+		{
+			_putchar(((n / c)  % 10) + '0');
+		}
 	}
 }
