@@ -16,34 +16,37 @@ char *_strstr(char *haystack, char *needle)
 	int length = 0;
 	char *b;
 
-	for (m = 0; needle[m + 1] != '\0'; m++)
+	while (haystack[m])
 	{
+		m++;
 	}
 	length = (m - 1);
 
-	for (n = 0; haystack[n + 1] != '\0'; n++)
+	while (haystack[n])
 	{
 		b = &haystack[n];
-		for (m = 0; needle[m + 1] != '\0'; m++)
+		m = 0;
+
+		while (needle[m])
 		{
 			if (c == length)
 			{
 				return (b);
 			}
+			if (haystack[n] == needle[m])
+			{
+				m++;
+				c++;
+				break;
+			}
 			else
 			{
-				if (haystack[n] == needle[m])
-				{
-					c++;
-					break;
-				}
-				else
-				{
-					c = 0;
-					continue;
-				}
-			}
+				m++;
+		       		c = 0;
+	       			continue;
+       			}
 		}
+		n++;
 	}
 	return ('\0');
 }
