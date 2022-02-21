@@ -18,13 +18,13 @@ char *_strstr(char *haystack, char *needle)
 
 	for (m = 0; needle[m + 1] != '\0'; m++)
 	{
-		length++;
 	}
+	length = (m - 1);
 
-	for (n = 0; haystack[n] != '\0'; n++)
+	for (n = 0; haystack[n + 1] != '\0'; n++)
 	{
 		b = &haystack[n];
-		for (m = 0; needle[m] <= length; m++)
+		for (m = 0; needle[m + 1] != '\0'; m++)
 		{
 			if (c == length)
 			{
@@ -40,7 +40,7 @@ char *_strstr(char *haystack, char *needle)
 				else
 				{
 					c = 0;
-					break;
+					continue;
 				}
 			}
 		}
