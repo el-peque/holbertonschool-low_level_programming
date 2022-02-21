@@ -2,7 +2,7 @@
 
 /**
  * print_chessboard - prints the chessboard
- * @(*a)[8]: char *haystack
+ * @a: char *a
  */
 
 void print_chessboard(char (*a)[8])
