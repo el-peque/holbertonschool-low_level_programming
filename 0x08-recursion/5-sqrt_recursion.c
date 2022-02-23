@@ -8,5 +8,11 @@
 
 int _sqrt_recursion(int n)
 {
-s
-	<}
+	int i = n /(n - 1);
+
+	if (i * i == n)
+	{
+		return (i);
+	}
+	return (n / _sqrt_recursion(n - 1));
+}
