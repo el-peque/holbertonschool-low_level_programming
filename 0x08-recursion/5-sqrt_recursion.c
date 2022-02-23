@@ -8,17 +8,5 @@
 
 int _sqrt_recursion(int n)
 {
-	start = 0;
-	mid = start + n;
-
-	if (mid*mid < n)
-	{
-		start = mid;
-		return (-1);
-	}
-	if (y == 0)
-	{
-		return (1);
-	}
-	return(x * _pow_recursion(x), y - 1);
-}
+s
+	<}
