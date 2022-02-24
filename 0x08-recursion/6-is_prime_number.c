@@ -15,6 +15,13 @@ int is_prime_number(int n)
 	return (prime(n, n - 1));
 }
 
+/**
+ * prime - checks if the input integer is a prime number
+ * @n: int n
+ * @i: int i
+ * Return: 1 if its a prime number, 0 otherwise
+ */
+
 int prime(int n, int i)
 {
 	if (i > 1)
