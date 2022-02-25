@@ -11,15 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	int a = atoi(argv[1]);
-	int b = atoi(argv[2]);
-	int res = a * b;
+	int a = atoi(argv[2]);
 
-	if (argc < 2 && argc >= 0)
-	{
-		printf("Error\n");
-		return (1);
-	}
-	printf("%d\n", res);
+	if (argc < 10)
+	printf("%d\n", a);
 	return (0);
 }
