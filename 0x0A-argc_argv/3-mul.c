@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - prints the number of arguments passed into it
@@ -10,20 +11,11 @@
 
 int main(int argc, char *argv[])
 {
-	char *a = argv[2] + '0';
-	char *b = argv[3] + '0';
-	char *error = "Error\n";
-	int n = 0;
-	int res = a * b;
-
-	if (argc < 4)
+	if (argc < 3)
 	{
-		for (n = 0; error[n] != '\0'; n++)
-		{
-			putchar(error[n]);
-		}
+		printf("Error\n");
 		return (1);
 	}
-	putchar(res + '0');
+	printf("%d\n", atoi(argv[2]) * atoi(argv[3]));
 	return (0);
 }
