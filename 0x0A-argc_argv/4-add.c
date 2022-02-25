@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	}
 	for (n = 1; n < argc; n++)
 	{
-		if(isalpha(a) != 0)
+		if(!isdigit(a))
 		{
 			printf("Error\n");
 			return (1);
