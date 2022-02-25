@@ -8,11 +8,12 @@
  * Return: should be zero
  */
 
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
 	int n = 0;
 	int m = 0;
-	char *a = argv[n];
+	char *a = argv[m];
+	int b = *argv[n];
 
 	for (n = 0; n < argc; n++)
 	{
