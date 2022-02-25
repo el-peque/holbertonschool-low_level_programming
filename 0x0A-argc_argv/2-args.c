@@ -11,16 +11,10 @@
 int main(int argc, char *argv[])
 {
 	int n = 0;
-	int m = 0;
-	char *a = argv[m];
-	int b = *argv[n];
 
-	for (n = 0; n < argc; n++)
+	for (n = 1; n < argc; n++)
 	{
-		for (m = 0; a[m] != 0; m++)
-		{
-			putchar(a[m]);
-		}
+		printf("%s\n", argv[n]);
 	}
 	return (0);
 }
