@@ -12,9 +12,10 @@ int main(int argc, char *argv[])
 {
 	int n = 0;
 
-	for (n = 0; n < argc; n++)
+	for (n = 0; *argv[n] != '\0'; n++)
 	{
-		printf("%s\n", argv[n]);
+		printf("%d\n", atoi(*argv[n]) += atoi(*argv[n + 1]));
 	}
+
 	return (0);
 }

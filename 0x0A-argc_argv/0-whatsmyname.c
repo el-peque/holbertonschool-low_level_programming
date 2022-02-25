@@ -14,8 +14,8 @@ int main(int argc __attribute__((unused)), char *argv[])
 
 	for (n = 0; a[n] != '\0'; n++)
 	{
-		_putchar(a[n]);
+		putchar(a[n]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
