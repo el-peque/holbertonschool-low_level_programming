@@ -4,7 +4,7 @@
 #include <ctype.h>
 
 /**
- * main - prints the number of arguments passed into it
+ * main - adds positive numbers
  * @argc: argument count
  * @argv: array of pointers
  * Return: should be zero
@@ -14,14 +14,15 @@ int main(int argc, char *argv[])
 {
 	int n = 0;
 	int res = 0;
+	int a = atoi(argv[n]);
 
 	if (argc == 0)
 	{
 		printf("0\n");
 	}
-	for (n = 0; n < argc; n++)
+	for (n = 1; n < argc; n++)
 	{
-		if(isdigit(atoi(argv[n])) != 0)
+		if(isalpha(a) != 0)
 		{
 			printf("Error\n");
 			return (1);
