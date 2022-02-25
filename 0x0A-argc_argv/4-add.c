@@ -18,12 +18,10 @@ int main(int argc, char *argv[])
 	{
 		printf("0\n");
 	}
-	res += atoi(argv[n]) + atoi(argv[n + 1]);
-	for (n = 1; *argv[n] != '\0'; n++)
+	for (n = 0; n < argc; n++)
 	{
-		printf("%d", res);
+		res += atoi(argv[n]);
 	}
-	putchar('\n');
-
+	printf("%d\n", res);
 	return (0);
 }
