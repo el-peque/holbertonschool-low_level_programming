@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the number of arguments passed into it
+ * main - prints all arguments it receives
  * @argc: argument count
  * @argv: array of pointers
  * Return: should be zero
