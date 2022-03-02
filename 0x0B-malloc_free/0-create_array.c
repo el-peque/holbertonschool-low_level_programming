@@ -16,10 +16,10 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 	str = malloc(sizeof(char)*size);
+	*str = c;
 	if(str[0] == '\0')
 	{
 		return (NULL);
 	}
-	str[0] = c;
 	return (str);
 }
