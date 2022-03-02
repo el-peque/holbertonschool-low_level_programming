@@ -7,7 +7,7 @@
  * @size: size of array
  * @c: char to initialize
  *
- * Return: NULL or 0
+ * Return: NULL or str
  */
 
 char *create_array(unsigned int size, char c)
@@ -29,4 +29,5 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 	return (str);
+	free (str);
 }
