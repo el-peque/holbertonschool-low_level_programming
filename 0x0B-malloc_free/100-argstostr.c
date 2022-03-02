@@ -18,7 +18,6 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	grid = malloc(sizeof(int *) * ac);
 	if (grid == NULL)
 	{
 		return (NULL);
