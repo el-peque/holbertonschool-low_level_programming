@@ -18,6 +18,7 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
+	grid = malloc(sizeof(int) * ac);
 	for (n = 0;  *av[n] != '\0'; n++)
 	{
 		grid[n] = malloc(sizeof(int *) * *av[n]);
