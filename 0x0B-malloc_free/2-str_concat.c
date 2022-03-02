@@ -29,13 +29,25 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (n = 0; s1[n] != '\0'; n++, m++)
+	if (s1[0] == '\0')
 	{
-		strcnct[m] = s1[n];
 	}
-	for (n = 0; s2[n] != '\0'; n++, m++)
+	else if (s1[0] != '\0')
 	{
-		strcnct[m] = s2[n];
+		for (n = 0; s1[n] != '\0'; n++, m++)
+		{
+			strcnct[m] = s1[n];
+		}
+	}
+	if (s2[0] == '\0')
+	{
+	}
+	else if (s2[0] != '\0')
+	{
+		for (n = 0; s2[n] != '\0'; n++, m++)
+		{
+			strcnct[m] = s2[n];
+		}
 	}
 	return (strcnct);
 }
