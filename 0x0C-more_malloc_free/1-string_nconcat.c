@@ -6,7 +6,6 @@
  * @s1: string 1
  * @s2: string 2
  * @n: n
- *
  * Return: pointer to concatenated strings or null
  */
 
@@ -41,9 +40,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		a++;
 	}
 	while (b < n)
-		{
-			strconcat[a] = s2[b];
-			a++, b++;
-		}
+	{
+		strconcat[a] = s2[b];
+		a++, b++;
+	}
 	return (strconcat);
 }
