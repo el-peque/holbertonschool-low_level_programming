@@ -23,11 +23,11 @@ void print_dog(struct dog *d)
 			owner = "(nil)";
 		}
 		printf("Name: %s\n", name);
-		if ((*d).age == '\0')
+		if ((*d).age < 0)
 		{
 			printf("Age: (nil)\n");
 		}
-		else if ((*d).age != '\0')
+		else if ((*d).age >= 0)
 		{
 			printf("Age: %f\n", (*d).age);
 		}
