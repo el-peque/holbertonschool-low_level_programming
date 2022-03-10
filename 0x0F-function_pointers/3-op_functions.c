@@ -1,27 +1,60 @@
 #include "3-calc.h"
 
 /**
- * struct op - Struct op
+ * op_add - adds two numbers
+ * @a: first integer
+ * @b: second integer
  *
- * @op: The operator
- * @f: The function associated
+ * Return: numbers operated
  */
 int op_add(int a, int b)
 {
 	return (a + b);
 }
+
+/**
+ * op_sub - subtracts two numbers
+ * @a: first integer
+ * @b: second integer
+ *
+ * Return: numbers operated
+ */
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
+
+/**
+ * op_mul - multiplies two numbers
+ * @a: first integer
+ * @b: second integer
+ *
+ * Return: numbers operated
+ */
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
+
+/**
+ * op_div - divides two numbers
+ * @a: first integer
+ * @b: second integer
+ *
+ * Return: numbers operated
+ */
 int op_div(int a, int b)
 {
 	return (a / b);
 }
+
+/**
+ * op_mod - calculates module of two numbers
+ * @a: first integer
+ * @b: second integer
+ *
+ * Return: numbers operated
+ */
 int op_mod(int a, int b)
 {
 	return (a % b);

@@ -1,10 +1,11 @@
 #include "3-calc.h"
 
 /**
- * struct op - Struct op
+ * get_op_func - selects the correct function to perform the
+ *               operation asked by the user
+ * @s: the operator
  *
- * @op: The operator
- * @f: The function associated
+ * Return: The function associated
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -17,13 +18,14 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 	int i;
+
 	i = 0;
 
-	while (*ops[i].op)
+	while (ops[i].op != NULL)
 	{
 		if (*ops[i].op == *s)
 		{
-			return(*ops[i].f);
+			return (*ops[i].f);
 		}
 		i++;
 	}
