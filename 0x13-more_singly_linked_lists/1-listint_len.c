@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_listint - returns the number of elements in a linked listint_t list
+ * listint_len - returns the number of elements in a linked listint_t list
  * @h: list_tint h
  * Return: number of nodes
  */
