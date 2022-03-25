@@ -12,7 +12,7 @@ int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int newn;
 
-	newn = 1 << index | *n;
-	n = &newn;
+	newn = (1 << index) | *n;
+	*n = newn;
 	return (1);
 }
