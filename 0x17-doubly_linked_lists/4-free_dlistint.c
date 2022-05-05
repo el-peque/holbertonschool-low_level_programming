@@ -5,19 +5,18 @@
  * @head: head
  */
 
-void free_dlistint(dlistint_t **head)
+void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *aux;
 
 	if (head != NULL)
 	{
-		while ((*head)->next != NULL)
+		while (head->next != NULL)
 		{
-			aux = (*head)->next;
-			free(*head);
-			*head = aux;
+			aux = head->next;
+			free(head);
+			head = aux;
 		}
-		free(*head);
-		(*head) = NULL;
+		free(head);
 	}
 }
