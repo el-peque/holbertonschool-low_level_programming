@@ -11,10 +11,17 @@
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	unsigned long int value = 0;
+	unsigned long int idx = 0;
+	hash_node_t *new_node;
 
-	
-	value = hash_djb2(key);
+	new_node = malloc(sizeof(hash_node_t));
+	new_node->key = strdup(key);
+	new_node->value = strdup(value);
 
-	return(ht)
+	idx = key_index((const unsigned char *)key, ht->size);
+	new_node->next = ht->array[idx]->next;
+	ht->array[idx] = malloc(sizeof(new_node));
+	ht->array[idx] = new_node;
+
+	return (1);
 }
