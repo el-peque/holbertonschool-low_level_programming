@@ -17,13 +17,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new_node = malloc(sizeof(hash_node_t));
 	new_node->key = strdup(key);
 	new_node->value = strdup(value);
-/*	printf("%s\n", new_node->value);
- */
+
 	idx = key_index((const unsigned char *)key, ht->size);
-/*	printf("%lu\n", idx);
-	new_node->next = ht->array[idx]->next;
-	printf("Yo\n");
-*/
+
 	ht->array[idx] = malloc(sizeof(new_node));
 	ht->array[idx] = new_node;
 
