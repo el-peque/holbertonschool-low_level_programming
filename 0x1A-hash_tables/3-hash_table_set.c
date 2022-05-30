@@ -14,13 +14,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int idx = 0;
 	hash_node_t *new_node;
-	char *ky = NULL, *vle = NULL;
-
+/*	char *ky = NULL, *vle = NULL;
+ 
 	ky = _strdup((char *)(key));
 	vle = _strdup((char *)(value));
+*/
 	new_node = malloc(sizeof(hash_node_t));
-	new_node->key = ky;
-	new_node->value = vle;
+	new_node->key = _strdup((char *)(key));
+	new_node->value = _strdup((char *)(value));
 
 	idx = key_index((const unsigned char *)key, ht->size);
 
