@@ -1,5 +1,6 @@
 #include "hash_tables.h"
 
+char *_strdup(char *str);
 /**
  * hash_table_set - adds an element to the hash table
  * @ht: hash table you want to add or update the key/value to
@@ -15,8 +16,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hash_node_t *new_node;
 	char *ky = NULL, *vle = NULL;
 
-	ky = strdup(key);
-	vle = strdup(value);
+	ky = _strdup((char *)(key));
+	vle = _strdup((char *)(value));
 	new_node = malloc(sizeof(hash_node_t));
 	new_node->key = ky;
 	new_node->value = vle;
@@ -27,4 +28,38 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	ht->array[idx] = new_node;
 
 	return (1);
+}
+
+/**
+ * _strdup - returns a pointer to a newly allocated space in memory,
+ *          which contains a copy of the string given as a parameter
+ * @str: given string
+ *
+ * Return: NULL or stra
+ */
+
+char *_strdup(char *str)
+{
+	char *stra;
+	unsigned int n = 0;
+	int size = 1;
+
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+	for (n = 0; str[n] != '\0'; n++)
+	{
+		size++;
+	}
+	stra = malloc(sizeof(char) * size);
+	if (stra == NULL)
+	{
+		return (NULL);
+	}
+	for (n = 0; str[n] != '\0'; n++)
+	{
+		stra[n] = str[n];
+	}
+	return (stra);
 }
