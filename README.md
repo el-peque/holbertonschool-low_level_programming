@@ -2,8 +2,8 @@
 
 <div align="center">
 
-| :#: | Project | Description |  |  
-| ----------- | ----------- | ----------- | ----------- |  
+| # | Project | Description |  |  
+| :-----------: | ----------- | ----------- | ----------- |  
 | 0 | [0x00-hello_world](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x00-hello_world "0x00-hello_world") | Hello, World | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="30" height="30"/> |  
 | 1 | [0x01-variables_if_else_while](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x01-variables_if_else_while "0x01-variables_if_else_while") | Variables, if, else, while  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="30" height="30"/> |  
 | 2 | [0x02-functions_nested_loops](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x02-functions_nested_loops "0x02-functions_nested_loops") | Functions, nested loops | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="30" height="30"/> |  
