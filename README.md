@@ -1,1 +1,21 @@
-Made by Peque
+<h1 align="center">Low-level programming & Algorithm</h1>
+
+<div align="center">
+
+| # | Project | Description |  |  
+| ----------- | ----------- | ----------- | ----------- |  
+| 0 | [0x00-hello_world](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x00-hello_world "0x00-hello_world") | Hello, World | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| 1 | [0x01-variables_if_else_while](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x01-variables_if_else_while "0x01-variables_if_else_while") | If/else, loops, functions  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| 2 | [0x02-functions_nested_loops](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x02-functions_nested_loops "0x02-functions_nested_loops") | Import & modules | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| 3 | [0x03-debugging](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x03-debugging "0x03-debugging") | Data Structures: Lists, Tuples | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| 4 | [0x04-more_functions_nested_loops](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x04-more_functions_nested_loops "0x04-more_functions_nested_loops") | More Data Structures: Set, Dictionary  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| 5 | [0x05-pointers_arrays_strings](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x05-pointers_arrays_strings "0x05-pointers_arrays_strings") | Exceptions | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| 6 | [0x06-pointers_arrays_strings](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x06-pointers_arrays_strings "0x06-pointers_arrays_strings") | Classes and Objects | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| 7 | [0x07-pointers_arrays_strings](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x07-pointers_arrays_strings "0x07-pointers_arrays_strings") | Test-driven development | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| 8 | [0x08-recursion](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x08-recursion "0x08-recursion") | More Classes and Objects | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| 9 | [0x09-static_libraries](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x09-static_libraries "0x09-static_libraries") | Everything is object | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> | 
+| A | [0x0A-argc_argv](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x0A-argc_argv "0x0A-argc_argv") | Inheritance | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| B | [0x0B-malloc_free](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x0B-malloc_free "0x0B-malloc_free") | Input/Output  | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+| C | [0x0C-more_malloc_free](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x0C-more_malloc_free "0x0C-more_malloc_free") | Almost a circle | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> |  
+
+</div>
