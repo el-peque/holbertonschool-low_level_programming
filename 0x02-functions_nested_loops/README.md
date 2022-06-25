@@ -1,6 +1,5 @@
 <h1 align= "center"> Functions, nested loops </h1>
-<h2> Learning Objectives </h2>
-<h3> General </h3>
+<h3> Learning Objectives </h2>
 
 - What are nested loops and how to use them
 - What is a function and how do you use functions
