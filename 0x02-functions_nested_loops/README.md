@@ -1,4 +1,5 @@
-<h1 align= "center"> Learning Objectives </h1>
+<h1 align= "center"> Functions, nested loops </h1>
+<h2> Learning Objectives </h2>
 <h3> General </h3>
 
 - What are nested loops and how to use them
