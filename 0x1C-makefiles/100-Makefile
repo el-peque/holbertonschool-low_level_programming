@@ -6,7 +6,7 @@ CFLAGS = -Wall -Werror -Wextra -pedantic
 
 .PHONY: all
 all: ${OBJ} ${SRC}
-	${CC} ${OBJ} m.h -o ${NAME}
+	${CC} ${OBJ} -o ${NAME}
 
 clean:
 	${RM} *~ ${NAME}
