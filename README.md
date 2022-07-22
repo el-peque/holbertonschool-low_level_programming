@@ -31,5 +31,6 @@
 | 17 | [0x17-doubly_linked_lists](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x17-doubly_linked_lists "0x17-doubly_linked_lists") | Doubly linked lists | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="30" height="30"/> |
 | 18 | [0x18-dynamic_libraries](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x18-dynamic_libraries "0x18-dynamic_libraries") | Dynamic libraries | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="30" height="30"/> |
 | 1A | [0x1A-hash_tables](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x1A-hash_tables "0x1A-hash_tables") | Hash tables | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="30" height="30"/> |
+| 1C | [0x1C-makefiles](https://github.com/cabreraezequiel/holbertonschool-low_level_programming/tree/master/0x1C-makefiles "0x1C-makefiles") | Makefiles | <img src="https://github.com/cabreraezequiel/cabreraezequiel/blob/main/img/textxmakefile_92756.png" alt="Make" width="30" height="30"/> |
 
 </div>
