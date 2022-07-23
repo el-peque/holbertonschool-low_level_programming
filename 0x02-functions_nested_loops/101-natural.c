@@ -10,14 +10,11 @@ int main(void)
 {
 	int i, sum;
 
-	for (i = 0; i < 1024; i += 3)
+	for (i = 0; i < 1024; i += 1)
 	{
-		sum += i; }
-
-	for (i = 0; i < 1024; i += 5)
-	{
-		sum += i; }
-
+		if (i % 3 == 0 || i % 5 == 0)
+			sum += i;
+	}
 	printf("%d\n", sum);
 	return (0);
 }
