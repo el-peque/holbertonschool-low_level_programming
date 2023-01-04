@@ -1,6 +1,7 @@
 #include "hash_tables.h"
 
 char *_strdup(char *str);
+int _strcmp(char *s1, char *s2);
 /**
  * hash_table_set - adds an element to the hash table
  * @ht: hash table you want to add or update the key/value to
@@ -15,6 +16,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	unsigned long int idx = 0;
 	hash_node_t *new_node;
 
+	if (!ht)
+		return (0);
+
 	new_node = malloc(sizeof(hash_node_t));
 	if (!new_node)
 		return (0);
@@ -27,10 +31,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	idx = key_index((const unsigned char *)key, ht->size);
 
-	if (ht->array[idx])
-	{
+	if (ht->array[idx] && _strcmp(new_node->key, ht->array[idx]->key) != 0)
 		new_node->next = ht->array[idx];
-	}
+
 	ht->array[idx] = malloc(sizeof(new_node));
 	if (!ht->array[idx])
 		return (0);
@@ -71,4 +74,27 @@ char *_strdup(char *str)
 		stra[n] = str[n];
 	}
 	return (stra);
+}
+
+/**
+ * _strcmp - compares two strings
+ * @s1: s1
+ * @s2: s2
+ * Return: difference
+ */
+
+int _strcmp(char *s1, char *s2)
+{
+	int n = 0;
+	int m = 0;
+
+	for (n = 0; s1[n] != '\0'; n++)
+	{
+		if (s1[n] == s2[n])
+			m++;
+	}
+	if (m >= n)
+		return (m - n);
+	else
+		return (n - m);
 }
