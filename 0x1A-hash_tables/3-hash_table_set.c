@@ -16,19 +16,23 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hash_node_t *new_node;
 
 	new_node = malloc(sizeof(hash_node_t));
-	if (new_node == NULL)
+	if (!new_node)
 		return (0);
 
 	new_node->key = _strdup((char *)(key));
-	if (new_node->key == NULL)
+	if (!new_node->key)
 		return (0);
 
 	new_node->value = _strdup((char *)(value));
 
 	idx = key_index((const unsigned char *)key, ht->size);
 
+	if (ht->array[idx])
+	{
+		new_node->next = ht->array[idx];
+	}
 	ht->array[idx] = malloc(sizeof(new_node));
-	if (ht->array[idx] == NULL)
+	if (!ht->array[idx])
 		return (0);
 	ht->array[idx] = new_node;
 
