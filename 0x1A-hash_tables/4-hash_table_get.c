@@ -11,15 +11,22 @@
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	unsigned long int idx = 0;
+	int str_cmp = 0;
+	hash_table_t *aux = (hash_table_t *)ht;
 
 	if (ht == NULL || key == NULL)
 		return (NULL);
 
 	idx = key_index((const unsigned char *)key, ht->size);
-	if (idx > ht->size || !ht->array[idx] ||
-	    _strcmp((char *)key, ht->array[idx]->key) != 0 ||
-	    !ht->array[idx]->value || !ht->array[idx])
+	if (idx > ht->size || !ht->array[idx])
 		return (NULL);
-
+	str_cmp = _strcmp((char *)key, aux->array[idx]->key);
+	while (str_cmp != 0 && aux->array[idx]->next)
+	{
+		aux->array[idx] = aux->array[idx]->next;
+		str_cmp = _strcmp((char *)key, aux->array[idx]->key);
+	}
+	if (str_cmp != 0 || !aux->array[idx]->value)
+		return (NULL);
 	return (ht->array[idx]->value);
 }
