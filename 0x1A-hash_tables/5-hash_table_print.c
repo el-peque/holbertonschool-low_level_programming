@@ -30,6 +30,8 @@ void hash_table_print(const hash_table_t *ht)
 			while (aux->array[idx]->next)
 			{
 				aux->array[idx] = aux->array[idx]->next;
+				_putchar(',');
+				_putchar(' ');
 				print_key_value(aux->array[idx]->key, aux->array[idx]->value);
 				count++;
 			}
