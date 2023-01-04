@@ -1,7 +1,6 @@
 #include "hash_tables.h"
 
 char *_strdup(char *str);
-int _strcmp(char *s1, char *s2);
 /**
  * hash_table_set - adds an element to the hash table
  * @ht: hash table you want to add or update the key/value to
